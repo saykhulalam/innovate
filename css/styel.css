@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1411px;
+}
+/* =============nav section=============== */
+.navbar{
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+}
+.navbar ul li a{
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 48px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.navbar ul li a:hover{
+    color: #ffffff;
+}
+.navbar ul li a i{
+    font-size: 10px;
+    color: #ffffff;
+}
+.navbar .login h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.navbar .login button{
+    width: 216px;
+    height: 64px;
+    background-color: #ffffff;
+    color: #30344E;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+.navbar .login button:hover{
+    background-color: #FD5F36;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    transition: .4s;
+}
+.navbar .login{
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+/* =============nav section=============== */
+/* <!-- ==========banner section start============ --> */
+#banner {
+    background-image: url("../images/banner-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 185px;
+    padding-bottom: 101px;
+}
+#banner .left h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+#banner .left p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 32px;
+    margin-bottom: 40px;
+    font-family: 'Inter', sans-serif;
+}
+#banner .left a{
+    width: 204px;
+    height: 64px;
+    background-color: #FD5F36;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+#banner .left a:hover{
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    transition: .4s;
+}
+#banner .left h4{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 71px;
+}
+#banner .left h4 span{
+    color: #52C5B6;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+#banner .left .star-box .img-box{
+    position: relative;
+}
+#banner .left .star-box .img-box .banner-tow {
+    position: absolute;
+    left: 40px;
+}
+#banner .left .star-box .img-box .banner-three {
+    position: absolute;
+    left: 70px;
+}
+#banner .left .star-box .img-box .banner-four {
+    position: absolute;
+    left: 103px;
+}
+#banner .left .star-box .icon-box h3{
+    font-size: 26px;
+    font-weight: 600;
+    color: #52C5B6;
+    letter-spacing: 0.52px;
+}
+#banner .left .star-box{
+    display: flex;
+    gap: 120px;
+}
+#banner .left .star-box .icon-box .star{
+    display: flex;
+    gap: 10px;
+}
+#banner .left .star-box .icon-box .star .i-main i{
+    font-size: 14px;
+    color: #FDB400;
+}
+#banner .border{
+    width: 17px;
+    height: 1px;
+    border-color: #4D516F;
+    rotate: 90deg;
+    margin-top: 12px;
+}
+#banner .left .star-box .icon-box .star{
+    position: relative;
+}
+#banner .left .star-box .icon-box .star h5 {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+    position: absolute;
+    top: 32px;
+    left: 0px;
+}
+#banner .banner-right{
+    margin-left: 74px;
+    position: relative;
+}
+#banner .banner-right .banner-tow {
+    position: absolute;
+    top: -187px;
+}
+#banner .banner-right .banner-three {
+    position: absolute;
+    top: -80px;
+    left: 11px;
+}
+#banner .banner-button-bac {
+    position: absolute;
+    left: 559px;
+    top: 493px;
+}
+#banner .left{
+    position: relative;
+}
+#banner .banner-play-button {
+    position: absolute;
+    left: 614px;
+    top: 549px;
+}
+#banner .banner-full {
+    position: absolute;
+    top: 404px;
+    left: 638px;
+}
+#banner .left .tir {
+    position: absolute;
+    top: 400px;
+    left: 359px;
+}
+#banner .reng {
+    position: absolute;
+    top: 557px;
+    right: -253px;
+}
+/* <!-- ==========banner section end============ --> */
