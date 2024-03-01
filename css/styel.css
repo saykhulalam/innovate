@@ -524,7 +524,7 @@
     position: relative;
     overflow: hidden;
 }
-#meet .img-box .i-box i {
+#meet .img-box .main .i-box i{
     font-size: 22px;
     width: 44px;
     height: 44px;
@@ -586,19 +586,6 @@
     position: absolute;
     bottom: 62px;
     right: 13px;
-    visibility: hidden;
-}
-#meet .img-box .fa-plus:hover{
-    background-color: #52C5B6;
-}
-#meet .img-box .main:hover .i-box{
-    visibility: visible;
-    transition: .3s;
-}
-#meet .img-box .main:hover .text{
-    background-color: #52C5B6;
-    color: #ffffff;
-    visibility: visible;
 }
 
 /* <!-- ========meet section end======= --> */
@@ -667,6 +654,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid transparent;
+}
+#caount .left a:hover{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    transition: .4s;
 }
 #caount .amount h2{
     font-size: 60px;
@@ -690,6 +683,7 @@
 #what{
     background-color: #FAFAFA;
     padding-top: 120px;
+    padding-bottom: 120px;
 }
 #what .taitel h1{
     font-size: 48px;
@@ -811,3 +805,168 @@
     bottom: 123px;
 }
 /* <!-- ============what section end========= --> */
+/* <!-- =======blog section start=========== --> */
+#blog{
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+#blog .taitel h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #FD5F36;
+    text-align: center;
+    margin-bottom: 8px;
+}
+#blog .taitel h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: #30344E;
+    line-height: 62px;
+    text-align: center;
+}
+#blog .taitel{
+    margin-bottom: 60px;
+}
+#blog .main-box h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: #3F3C5C;
+    line-height: 34px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+#blog .main-box p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #575470;
+}
+#blog .main-box .left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#blog .main-box .left h5{
+    font-size: 16px;
+    font-weight: 400;
+    color: #9C9BA9;
+}
+#blog .main-box .right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#blog .main-box .right .clndr{
+    font-size: 24px;
+    color: #9C9BA9;
+}
+#blog .main-box .right h5{
+    font-size: 16px;
+    font-weight: 400;
+    color: #9C9BA9;
+    padding-top: 10px;
+}
+#blog .main-box .right .deth{
+    margin-top: 18px;
+}
+/* <!-- =======blog section end=========== --> */
+/* ========footer section start======= */
+#footer{
+    background-color: #2B3044;
+    padding-top: 110px;
+    padding-bottom: 30px;
+}
+#footer .left p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 26px;
+    margin-bottom: 24px;
+}
+#footer .left .ibox{
+    display: flex;
+    gap: 6px;
+}
+#footer .left .ibox i{
+    color: #2B3044;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+#footer .list h2{
+    color: #52C5B6;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+#footer .list ul{
+    list-style: none;
+    padding: 0;
+}
+#footer .list ul li{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+#footer .right h2{
+    color: #52C5B6;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 20px;
+    margin-bottom: 18px;
+}
+#footer .right p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 32px;
+}
+#footer .right .mail input{
+    width: 269px;
+    height: 46px;
+    border-radius: 5px;
+    padding: 20px;
+}
+#footer .right .mail input::placeholder{
+    color: #A1A2A3;
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 18px;
+}
+#footer .right .mail{
+    position: relative;
+}
+#footer .right .mail i {
+    width: 36px;
+    height: 36px;
+    background-color: #FD5F36;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 36px;
+    position: absolute;
+    top: 5px;
+    right: 66px;
+}
+#footer .shep{
+    width: 1410px;
+    height: 5px;
+    background-color: #D2D2D2;
+    margin-top: 84px;
+}
+#footer .copyright{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 24px;
+    color: #FFFFFF;
+}
+/* ========footer section end======= */
